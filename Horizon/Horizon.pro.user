@@ -58,6 +58,7 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">2</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">2</value>
   </valuemap>
  </data>
@@ -67,6 +68,7 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">2</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
@@ -74,12 +76,114 @@
   <variable>buildconfiguration-Debug-buildstep0</variable>
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
+    <value type="QString">APPDATA=C:\Users\Tim\AppData\Roaming</value>
+    <value type="QString">CLASSPATH=.;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
+    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
+    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=SOL</value>
+    <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOME=C:\Users\Tim</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Users\Tim</value>
+    <value type="QString">LOCALAPPDATA=C:\Users\Tim\AppData\Local</value>
+    <value type="QString">LOGONSERVER=\\SOL</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=8</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programming\Tools\MinGW\bin;C:\Programming\Libraries\Qt-4.6.2\bin;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Programming\Tools\MinGW\bin\;C:\Programming\Tools\Git\cmd</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 26 Stepping 4, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=1a04</value>
+    <value type="QString">PROGRAMDATA=C:\ProgramData</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
+    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
+    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
+    <value type="QString">PUBLIC=C:\Users\Public</value>
+    <value type="QString">QTDIR=C:/Programming/Libraries/Qt-4.6.2</value>
+    <value type="QString">QTJAVA=C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\Windows</value>
+    <value type="QString">TEMP=C:\Users\Tim\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\Tim\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=SOL</value>
+    <value type="QString">USERNAME=Tim</value>
+    <value type="QString">USERPROFILE=C:\Users\Tim</value>
+    <value type="QString">WINDIR=C:\Windows</value>
+    <value type="QString">WXWIN=C:\Programming\Libraries\wxWidgets-2.8.11</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/Programming/Projects/Generator/Horizon/Horizon.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">win32-g++</value>
+    <value type="QString">-r</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">c:/programming/libraries/qt-4.6.2/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">false</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Programming/Projects/Generator/Horizon</value>
   </valuemap>
  </data>
  <data>
   <variable>buildconfiguration-Debug-buildstep1</variable>
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\ProgramData</value>
+    <value type="QString">APPDATA=C:\Users\Tim\AppData\Roaming</value>
+    <value type="QString">CLASSPATH=.;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files</value>
+    <value type="QString">COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</value>
+    <value type="QString">COMMONPROGRAMW6432=C:\Program Files\Common Files</value>
+    <value type="QString">COMPUTERNAME=SOL</value>
+    <value type="QString">COMSPEC=C:\Windows\system32\cmd.exe</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOME=C:\Users\Tim</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Users\Tim</value>
+    <value type="QString">LOCALAPPDATA=C:\Users\Tim\AppData\Local</value>
+    <value type="QString">LOGONSERVER=\\SOL</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=8</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programming\Tools\MinGW\bin;C:\Programming\Libraries\Qt-4.6.2\bin;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Programming\Tools\MinGW\bin\;C:\Programming\Tools\Git\cmd</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_ARCHITEW6432=AMD64</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 26 Stepping 4, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=1a04</value>
+    <value type="QString">PROGRAMDATA=C:\ProgramData</value>
+    <value type="QString">PROGRAMFILES=C:\Program Files (x86)</value>
+    <value type="QString">PROGRAMFILES(X86)=C:\Program Files (x86)</value>
+    <value type="QString">PROGRAMW6432=C:\Program Files</value>
+    <value type="QString">PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</value>
+    <value type="QString">PUBLIC=C:\Users\Public</value>
+    <value type="QString">QTDIR=C:/Programming/Libraries/Qt-4.6.2</value>
+    <value type="QString">QTJAVA=C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\Windows</value>
+    <value type="QString">TEMP=C:\Users\Tim\AppData\Local\Temp</value>
+    <value type="QString">TMP=C:\Users\Tim\AppData\Local\Temp</value>
+    <value type="QString">USERDOMAIN=SOL</value>
+    <value type="QString">USERNAME=Tim</value>
+    <value type="QString">USERPROFILE=C:\Users\Tim</value>
+    <value type="QString">WINDIR=C:\Windows</value>
+    <value type="QString">WXWIN=C:\Programming\Libraries\wxWidgets-2.8.11</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/Programming/Tools/MinGW/bin/mingw32-make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Programming/Projects/Generator/Horizon</value>
   </valuemap>
  </data>
  <data>

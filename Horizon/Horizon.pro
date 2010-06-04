@@ -6,7 +6,9 @@ TARGET = Horizon
 TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp \
-    glsurface.cpp
+    glsurface.cpp \
+    horizon.cpp
 HEADERS += mainwindow.h \
-    glsurface.h
+    glsurface.h \
+    horizon.h
 FORMS += mainwindow.ui

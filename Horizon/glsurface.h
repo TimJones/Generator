@@ -2,6 +2,7 @@
 #define GLSURFACE_H
 
 #include <QGLWidget>
+#include "horizon.h"
 
 class GLSurface : public QGLWidget
 {
@@ -13,6 +14,8 @@ protected:
     void initializeGL();
     void resizeGL( int width, int height );
     void paintGL();
+
+    Horizon horizon;
 
 signals:
 

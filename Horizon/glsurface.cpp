@@ -18,7 +18,20 @@ void GLSurface::paintGL()
 {
     glClear( GL_COLOR_BUFFER_BIT );
 
-    // Draw stuff!!
+    GLfloat width = static_cast< GLfloat >( this->width() );
+    GLfloat height = static_cast< GLfloat >( this->height() );
+    GLfloat middle = height / 2.0;
+
+    const Horizon::LineData line = horizon.getLineData();
+    Horizon::LineDataIt it;
+
+    glBegin( GL_LINES );
+    glColor3b( 0, 0, 0 );
+    for( it = line.begin(); it != line.end(); it++ )
+    {
+        glVertex2f( width * it->x, middle + ( height * it->y ) );
+    }
+    glEnd();
 
     glFlush();
 }

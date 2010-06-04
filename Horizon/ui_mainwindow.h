@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Fri 4. Jun 16:54:45 2010
+** Created: Fri 4. Jun 17:26:53 2010
 **      by: Qt User Interface Compiler version 4.6.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -24,6 +24,7 @@
 #include <QtGui/QSpacerItem>
 #include <QtGui/QVBoxLayout>
 #include <QtGui/QWidget>
+#include "glsurface.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -41,7 +42,7 @@ public:
     QLabel *label_Variance;
     QSlider *horizontalSlider_Variance;
     QSpacerItem *verticalSpacer_4;
-    QWidget *widget;
+    GLSurface *widget;
     QGroupBox *groupBox_Actions;
     QVBoxLayout *verticalLayout;
     QSpacerItem *verticalSpacer_3;
@@ -110,9 +111,9 @@ public:
         verticalLayout_2->addItem(verticalSpacer_4);
 
 
-        gridLayout->addWidget(groupBox_Settings, 0, 0, 2, 1);
+        gridLayout->addWidget(groupBox_Settings, 0, 0, 1, 1);
 
-        widget = new QWidget(centralWidget);
+        widget = new GLSurface(centralWidget);
         widget->setObjectName(QString::fromUtf8("widget"));
         QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy1.setHorizontalStretch(2);
@@ -121,7 +122,7 @@ public:
         widget->setSizePolicy(sizePolicy1);
         widget->setMinimumSize(QSize(300, 300));
 
-        gridLayout->addWidget(widget, 0, 1, 3, 1);
+        gridLayout->addWidget(widget, 0, 1, 2, 1);
 
         groupBox_Actions = new QGroupBox(centralWidget);
         groupBox_Actions->setObjectName(QString::fromUtf8("groupBox_Actions"));
@@ -156,7 +157,7 @@ public:
         verticalLayout->addItem(verticalSpacer);
 
 
-        gridLayout->addWidget(groupBox_Actions, 2, 0, 1, 1);
+        gridLayout->addWidget(groupBox_Actions, 1, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralWidget);
 

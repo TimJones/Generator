@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Fri 4. Jun 17:26:53 2010
+** Created: Fri 4. Jun 21:52:37 2010
 **      by: Qt User Interface Compiler version 4.6.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -168,7 +168,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0, QApplication::UnicodeUTF8));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Horizon", 0, QApplication::UnicodeUTF8));
         groupBox_Settings->setTitle(QApplication::translate("MainWindow", "Settings", 0, QApplication::UnicodeUTF8));
         label_Iterations->setText(QApplication::translate("MainWindow", "Iterations", 0, QApplication::UnicodeUTF8));
         label_Variance->setText(QApplication::translate("MainWindow", "Variance", 0, QApplication::UnicodeUTF8));

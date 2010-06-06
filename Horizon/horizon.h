@@ -22,6 +22,7 @@ public:
     typedef std::list< Horizon::Point >::const_iterator LineDataIt;
 
 protected:
+    float variance;
     std::list< Horizon::Point > line;
 };
 #endif // HORIZON_H

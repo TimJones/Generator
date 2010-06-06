@@ -14,10 +14,10 @@ void Horizon::Generate()
 {
     Point mid;
     LineData newline;
-    LineData::iterator next = line.begin();
-    next++;
+    LineData::iterator next = line.begin(), last_but_one = line.end();
+    next++; last_but_one--;
 
-    for( LineData::iterator it = line.begin(); it != line.end(); it++, next++ )
+    for( LineData::iterator it = line.begin(); it != last_but_one; it++, next++ )
     {
         newline.push_back( *it );
 
@@ -29,6 +29,7 @@ void Horizon::Generate()
 
         newline.push_back( mid );
     }
+    newline.push_back( line.back() );
 
     line.clear();
     line = newline;

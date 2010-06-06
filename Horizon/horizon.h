@@ -8,7 +8,8 @@ class Horizon
 public:
     struct Point
     {
-        Point( float x_pos, float y_pos ): x( x_pos ), y( y_pos ){};
+        Point(): x( 0.0 ), y( 0.0 ) {};
+        Point( float x_pos, float y_pos ): x( x_pos ), y( y_pos ) {};
         float x, y;
     };
 

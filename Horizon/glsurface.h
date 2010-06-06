@@ -20,7 +20,7 @@ protected:
 signals:
 
 public slots:
-
+    void step();
 };
 
 #endif // GLSURFACE_H

@@ -212,8 +212,28 @@
    <extends>QWidget</extends>
    <header>glsurface.h</header>
    <container>1</container>
+   <slots>
+    <slot>step()</slot>
+   </slots>
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_Step</sender>
+   <signal>clicked()</signal>
+   <receiver>widget</receiver>
+   <slot>step()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

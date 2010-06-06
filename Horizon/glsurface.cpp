@@ -25,7 +25,7 @@ void GLSurface::paintGL()
     const Horizon::LineData line = horizon.getLineData();
     Horizon::LineDataIt it;
 
-    glBegin( GL_LINES );
+    glBegin( GL_LINE_STRIP );
     glColor3b( 0, 0, 0 );
     for( it = line.begin(); it != line.end(); it++ )
     {
@@ -45,4 +45,10 @@ void GLSurface::resizeGL( int width, int height )
     glMatrixMode( GL_MODELVIEW );
     glLoadIdentity();
     glTranslatef( 0.375, 0.375, 0.0 );
+}
+
+void GLSurface::step()
+{
+    horizon.Generate();
+    glDraw();
 }

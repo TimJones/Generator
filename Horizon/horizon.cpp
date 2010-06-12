@@ -13,7 +13,7 @@ Horizon::Horizon():
 
 void Horizon::Generate()
 {
-    float high = variance, low = variance * -1.0;
+    float high = variance / 2.0 , low = high * -1.0;
     Point mid;
     LineData newline;
     LineData::iterator next = line.begin(), last_but_one = line.end();

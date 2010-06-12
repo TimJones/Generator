@@ -19,8 +19,7 @@ void GLSurface::paintGL()
     glClear( GL_COLOR_BUFFER_BIT );
 
     GLfloat width = static_cast< GLfloat >( this->width() );
-    GLfloat height = static_cast< GLfloat >( this->height() );
-    GLfloat middle = height / 2.0;
+    GLfloat middle = static_cast< GLfloat >( this->height() ) / 2.0;
 
     const Horizon::LineData line = horizon.getLineData();
     Horizon::LineDataIt it;
@@ -29,7 +28,7 @@ void GLSurface::paintGL()
     glColor3b( 0, 0, 0 );
     for( it = line.begin(); it != line.end(); it++ )
     {
-        glVertex2f( width * it->x, middle + ( height * it->y ) );
+        glVertex2f( width * it->x, middle + ( middle * it->y ) );
     }
     glEnd();
 

@@ -26,8 +26,12 @@ void Horizon::Generate()
         mid.x = it->x + ( ( next->x - it->x ) * 0.5 );
         mid.y = it->y + ( ( next->y - it->y ) * 0.5 );
 
-        float displacement = ( rand() / ( static_cast< float >( RAND_MAX ) + 1.0 ) ) * ( high - low ) + low;
-        mid.y += displacement;
+        do
+        {
+            float displacement = ( rand() / ( static_cast< float >( RAND_MAX ) + 1.0 ) ) * ( high - low ) + low;
+            mid.y += displacement;
+        } while( mid.y > 1.0 || mid.y < -1.0);
+
 
         newline.push_back( mid );
     }
